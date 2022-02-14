@@ -1,0 +1,73 @@
+body {
+  color: #66BFBF;
+  font-family: 'Gideon Roman', cursive;
+  background-color: #fff;
+  text-align: center;
+}
+     /* Home Page Design  */
+.home {
+  background-image: url("domenico-loia-hGV2TfOh0ns-unsplash.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;:
+  width: 200px;
+  height: 100vh;
+  font-family: 'Gideon Roman', cursive;
+  border-radius: 5px;
+  border-color: #11A7BB;
+}
+     /* Home Text Design  */
+.text{
+  text-align: left;
+  position: absolute;
+  margin: 20px;
+  padding: 20px;
+  left: 15%;
+  top: 45%;
+  color: #fff;
+  background-size: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+     /* Round Image Design  */
+.row1 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+     /* Skill Page And Education Page Design  */
+.container {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 20px;
+}
+     /* Skill Page And Education Page Design  */
+.list {
+  color: black;
+  padding: 0;
+  margin-top: 10px;
+  text-align: left;
+}
+     /* h1 Design */
+h1 {
+  font-size: 50px;
+  padding-top: 10px;
+}
+     /* h2 Design */
+h2 {
+  font-size: 50px;
+}
+     /* Certificates Page Design */
+.container1 {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px;
+}
+@media (max-width:600px) {
+  .text {
+    left: 5px;
+  }
+}
